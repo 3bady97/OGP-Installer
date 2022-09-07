@@ -1,7 +1,7 @@
 #!/bin/bash
 # Installing OGP Agent on supported debian/ubuntu/centos server
-# github.com/sanjaysrocks
-# https://github.com/SanjaySRocks/OGP-Installer/blob/master/install-agent.sh
+# github.com/3bady97
+# https://github.com/3bady97/OGP-Installer/blob/master/install-agent.sh
 
 . /etc/os-release
 
@@ -14,7 +14,7 @@ update_system(){
 }
 
 install_agent(){
-    wget -N "https://github.com/OpenGamePanel/Easy-Installers/raw/master/Linux/Debian-Ubuntu/ogp-agent-latest.deb" -O "ogp-agent-latest.deb"
+    wget -N "https://github.com/3bady97/OGP/raw/master/Linux/Debian-Ubuntu/ogp-agent-latest.deb" -O "ogp-agent-latest.deb"
     sudo dpkg -i "ogp-agent-latest.deb"
 
     sudo cat /root/ogp_user_password
@@ -121,7 +121,7 @@ if [ "$ID" == "centos" ]; then
     fi
 
     # Downloading and installing agent
-    wget -N "https://github.com/OpenGamePanel/Easy-Installers/raw/master/Linux/CentOS/ogp_agent_rpm-1.0.0-1.noarch.rpm" -O "ogp_agent.rpm"
+    wget -N "https://github.com/3bady97/OGP/raw/master/Linux/CentOS/ogp_agent_rpm-1.0.0-1.noarch.rpm" -O "ogp_agent.rpm"
     sudo yum install -y "ogp_agent.rpm"
     sudo cat /root/ogp_enc_key
     sudo cat /root/ogp_user_sudo_pass
