@@ -36,6 +36,6 @@ Script supports auto install agent or panel for any os supported
     
     
 
-
 ### OpenGamePanel GitHub
-https://github.com/OpenGamePanel
+   https://github.com/OpenGamePanel<br>
+   Copyright © SanjaySRocks
