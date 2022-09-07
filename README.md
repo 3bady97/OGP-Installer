@@ -18,13 +18,14 @@ Script supports auto install agent or panel for any os supported
 |        | 7       | ✅ |
 | 	 | 6       | ✅ |
 
-### Panel Installation
-
-    curl -O https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/install-panel.sh
 
 ### Agent Installation 
 	
-    curl -O https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/install-agent.sh
+    curl -O https://raw.githubusercontent.com/3bady97/OGP-Installer/master/install-agent.sh
+    
+### Panel Installation
+
+    curl -O https://raw.githubusercontent.com/3bady97/OGP-Installer/master/install-panel.sh
 
 ### OpenGamePanel GitHub
 https://github.com/OpenGamePanel
