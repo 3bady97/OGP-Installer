@@ -1,6 +1,6 @@
 #!/bin/bash
 # Installing OGP Agent on supported debian/ubuntu/centos server
-# github.com/3bady97
+# github.com/3BaDy97
 # https://github.com/3bady97/OGP-Installer/blob/master/install-agent.sh
 
 . /etc/os-release
