@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install Open Game Panel
-# github.com/sanjaysrocks
-# https://github.com/SanjaySRocks/OGP-Installer/blob/master/ogp-panel-install.sh
+# github.com/3BaDy97
+# https://github.com/3BaDy97/OGP-Installer/blob/master/ogp-panel-install.sh
 
 cyan() {
 	echo -e "\\033[36;1m${@}\033[0m"
@@ -19,7 +19,7 @@ update_system(){
 }
 
 install_debian_ubuntu(){
-	wget -N "https://github.com/OpenGamePanel/Easy-Installers/raw/master/Linux/Debian-Ubuntu/ogp-panel-latest.deb" -O "ogp-panel-latest.deb"
+	wget -N "https://github.com/3bady97/OGP/raw/master/Linux/Debian-Ubuntu/ogp-panel-latest.deb" -O "ogp-panel-latest.deb"
 	sudo dpkg -i "ogp-panel-latest.deb"
 
 	sudo cat /root/ogp_panel_mysql_info
@@ -198,7 +198,7 @@ if [ "$ID" == "centos" ]; then
 
 	fi
 
-	wget -N "https://github.com/OpenGamePanel/Easy-Installers/raw/master/Linux/CentOS/ogp_panel_rpm-1.0.0-1.noarch.rpm" -O "ogp_panel.rpm"
+	wget -N "https://github.com/3bady97/OGP/raw/master/Linux/CentOS/ogp_panel_rpm-1.0.0-1.noarch.rpm" -O "ogp_panel.rpm"
 	sudo yum -y install "ogp_panel.rpm"
 
 	sudo bash /var/www/html/create_db.sh
